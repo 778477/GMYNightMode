@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F539C2881CC23CC5004B3F88 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F539C2871CC23CC5004B3F88 /* main.m */; };
+		F539C28B1CC23CC5004B3F88 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F539C28A1CC23CC5004B3F88 /* AppDelegate.m */; };
+		F539C2961CC23CC5004B3F88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F539C2951CC23CC5004B3F88 /* Assets.xcassets */; };
+		F539C2991CC23CC5004B3F88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F539C2971CC23CC5004B3F88 /* LaunchScreen.storyboard */; };
+		F539C2A21CC25BF1004B3F88 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F539C2A11CC25BF1004B3F88 /* TableViewController.m */; };
+		F539C2A51CC47262004B3F88 /* NSObject+GMYTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = F539C2A41CC47262004B3F88 /* NSObject+GMYTheme.m */; };
+		F539C2A81CC47425004B3F88 /* GMYThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F539C2A71CC47425004B3F88 /* GMYThemeManager.m */; };
+		F539C2AB1CC47671004B3F88 /* UIView+GMYTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = F539C2AA1CC47671004B3F88 /* UIView+GMYTheme.m */; };
+		F539C2AF1CC482F3004B3F88 /* GMYThemeColorPickers.m in Sources */ = {isa = PBXBuildFile; fileRef = F539C2AE1CC482F3004B3F88 /* GMYThemeColorPickers.m */; };
+		F539C2B21CC4C286004B3F88 /* UILabel+GMYTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = F539C2B11CC4C286004B3F88 /* UILabel+GMYTheme.m */; };
+		F539C2B81CC4D22B004B3F88 /* UIBarButtonItem+GMYTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = F539C2B71CC4D22B004B3F88 /* UIBarButtonItem+GMYTheme.m */; };
+		F539C2C21CC4DDA5004B3F88 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F539C2C01CC4DDA5004B3F88 /* MainViewController.m */; };
+		F539C2C31CC4DDA5004B3F88 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F539C2C11CC4DDA5004B3F88 /* MainViewController.xib */; };
+		F539C2CC1CC510C4004B3F88 /* GMYDeallocExector.m in Sources */ = {isa = PBXBuildFile; fileRef = F539C2CB1CC510C4004B3F88 /* GMYDeallocExector.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F539C2831CC23CC5004B3F88 /* GMYNightModeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GMYNightModeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F539C2871CC23CC5004B3F88 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F539C2891CC23CC5004B3F88 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F539C28A1CC23CC5004B3F88 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F539C2951CC23CC5004B3F88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F539C2981CC23CC5004B3F88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F539C29A1CC23CC5004B3F88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F539C2A01CC25BF1004B3F88 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		F539C2A11CC25BF1004B3F88 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		F539C2A31CC47262004B3F88 /* NSObject+GMYTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+GMYTheme.h"; sourceTree = "<group>"; };
+		F539C2A41CC47262004B3F88 /* NSObject+GMYTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+GMYTheme.m"; sourceTree = "<group>"; };
+		F539C2A61CC47425004B3F88 /* GMYThemeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMYThemeManager.h; sourceTree = "<group>"; };
+		F539C2A71CC47425004B3F88 /* GMYThemeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMYThemeManager.m; sourceTree = "<group>"; };
+		F539C2A91CC47671004B3F88 /* UIView+GMYTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GMYTheme.h"; sourceTree = "<group>"; };
+		F539C2AA1CC47671004B3F88 /* UIView+GMYTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GMYTheme.m"; sourceTree = "<group>"; };
+		F539C2AD1CC482F3004B3F88 /* GMYThemeColorPickers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMYThemeColorPickers.h; sourceTree = "<group>"; };
+		F539C2AE1CC482F3004B3F88 /* GMYThemeColorPickers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMYThemeColorPickers.m; sourceTree = "<group>"; };
+		F539C2B01CC4C286004B3F88 /* UILabel+GMYTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+GMYTheme.h"; sourceTree = "<group>"; };
+		F539C2B11CC4C286004B3F88 /* UILabel+GMYTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+GMYTheme.m"; sourceTree = "<group>"; };
+		F539C2B61CC4D22B004B3F88 /* UIBarButtonItem+GMYTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+GMYTheme.h"; sourceTree = "<group>"; };
+		F539C2B71CC4D22B004B3F88 /* UIBarButtonItem+GMYTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+GMYTheme.m"; sourceTree = "<group>"; };
+		F539C2BF1CC4DDA5004B3F88 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		F539C2C01CC4DDA5004B3F88 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		F539C2C11CC4DDA5004B3F88 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		F539C2CA1CC510C4004B3F88 /* GMYDeallocExector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMYDeallocExector.h; sourceTree = "<group>"; };
+		F539C2CB1CC510C4004B3F88 /* GMYDeallocExector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMYDeallocExector.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F539C2801CC23CC5004B3F88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F539C27A1CC23CC5004B3F88 = {
+			isa = PBXGroup;
+			children = (
+				F539C2851CC23CC5004B3F88 /* GMYNightModeTest */,
+				F539C2841CC23CC5004B3F88 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F539C2841CC23CC5004B3F88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F539C2831CC23CC5004B3F88 /* GMYNightModeTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F539C2851CC23CC5004B3F88 /* GMYNightModeTest */ = {
+			isa = PBXGroup;
+			children = (
+				F539C2AC1CC4767D004B3F88 /* ThemeCategory */,
+				F539C2891CC23CC5004B3F88 /* AppDelegate.h */,
+				F539C28A1CC23CC5004B3F88 /* AppDelegate.m */,
+				F539C2BF1CC4DDA5004B3F88 /* MainViewController.h */,
+				F539C2C01CC4DDA5004B3F88 /* MainViewController.m */,
+				F539C2C11CC4DDA5004B3F88 /* MainViewController.xib */,
+				F539C2A01CC25BF1004B3F88 /* TableViewController.h */,
+				F539C2A11CC25BF1004B3F88 /* TableViewController.m */,
+				F539C2A61CC47425004B3F88 /* GMYThemeManager.h */,
+				F539C2A71CC47425004B3F88 /* GMYThemeManager.m */,
+				F539C2CA1CC510C4004B3F88 /* GMYDeallocExector.h */,
+				F539C2CB1CC510C4004B3F88 /* GMYDeallocExector.m */,
+				F539C2AD1CC482F3004B3F88 /* GMYThemeColorPickers.h */,
+				F539C2AE1CC482F3004B3F88 /* GMYThemeColorPickers.m */,
+				F539C2951CC23CC5004B3F88 /* Assets.xcassets */,
+				F539C2971CC23CC5004B3F88 /* LaunchScreen.storyboard */,
+				F539C29A1CC23CC5004B3F88 /* Info.plist */,
+				F539C2861CC23CC5004B3F88 /* Supporting Files */,
+			);
+			path = GMYNightModeTest;
+			sourceTree = "<group>";
+		};
+		F539C2861CC23CC5004B3F88 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F539C2871CC23CC5004B3F88 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F539C2AC1CC4767D004B3F88 /* ThemeCategory */ = {
+			isa = PBXGroup;
+			children = (
+				F539C2A31CC47262004B3F88 /* NSObject+GMYTheme.h */,
+				F539C2A41CC47262004B3F88 /* NSObject+GMYTheme.m */,
+				F539C2B61CC4D22B004B3F88 /* UIBarButtonItem+GMYTheme.h */,
+				F539C2B71CC4D22B004B3F88 /* UIBarButtonItem+GMYTheme.m */,
+				F539C2B01CC4C286004B3F88 /* UILabel+GMYTheme.h */,
+				F539C2B11CC4C286004B3F88 /* UILabel+GMYTheme.m */,
+				F539C2A91CC47671004B3F88 /* UIView+GMYTheme.h */,
+				F539C2AA1CC47671004B3F88 /* UIView+GMYTheme.m */,
+			);
+			name = ThemeCategory;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F539C2821CC23CC5004B3F88 /* GMYNightModeTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F539C29D1CC23CC5004B3F88 /* Build configuration list for PBXNativeTarget "GMYNightModeTest" */;
+			buildPhases = (
+				F539C27F1CC23CC5004B3F88 /* Sources */,
+				F539C2801CC23CC5004B3F88 /* Frameworks */,
+				F539C2811CC23CC5004B3F88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GMYNightModeTest;
+			productName = GMYNightModeTest;
+			productReference = F539C2831CC23CC5004B3F88 /* GMYNightModeTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F539C27B1CC23CC5004B3F88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = miaoyou.gmy;
+				TargetAttributes = {
+					F539C2821CC23CC5004B3F88 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = F539C27E1CC23CC5004B3F88 /* Build configuration list for PBXProject "GMYNightModeTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F539C27A1CC23CC5004B3F88;
+			productRefGroup = F539C2841CC23CC5004B3F88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F539C2821CC23CC5004B3F88 /* GMYNightModeTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F539C2811CC23CC5004B3F88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F539C2991CC23CC5004B3F88 /* LaunchScreen.storyboard in Resources */,
+				F539C2C31CC4DDA5004B3F88 /* MainViewController.xib in Resources */,
+				F539C2961CC23CC5004B3F88 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F539C27F1CC23CC5004B3F88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F539C2C21CC4DDA5004B3F88 /* MainViewController.m in Sources */,
+				F539C2CC1CC510C4004B3F88 /* GMYDeallocExector.m in Sources */,
+				F539C28B1CC23CC5004B3F88 /* AppDelegate.m in Sources */,
+				F539C2A81CC47425004B3F88 /* GMYThemeManager.m in Sources */,
+				F539C2B81CC4D22B004B3F88 /* UIBarButtonItem+GMYTheme.m in Sources */,
+				F539C2AB1CC47671004B3F88 /* UIView+GMYTheme.m in Sources */,
+				F539C2A51CC47262004B3F88 /* NSObject+GMYTheme.m in Sources */,
+				F539C2A21CC25BF1004B3F88 /* TableViewController.m in Sources */,
+				F539C2AF1CC482F3004B3F88 /* GMYThemeColorPickers.m in Sources */,
+				F539C2B21CC4C286004B3F88 /* UILabel+GMYTheme.m in Sources */,
+				F539C2881CC23CC5004B3F88 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F539C2971CC23CC5004B3F88 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F539C2981CC23CC5004B3F88 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F539C29B1CC23CC5004B3F88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F539C29C1CC23CC5004B3F88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F539C29E1CC23CC5004B3F88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GMYNightModeTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.778477.GMYNightModeTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F539C29F1CC23CC5004B3F88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GMYNightModeTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.778477.GMYNightModeTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F539C27E1CC23CC5004B3F88 /* Build configuration list for PBXProject "GMYNightModeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F539C29B1CC23CC5004B3F88 /* Debug */,
+				F539C29C1CC23CC5004B3F88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F539C29D1CC23CC5004B3F88 /* Build configuration list for PBXNativeTarget "GMYNightModeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F539C29E1CC23CC5004B3F88 /* Debug */,
+				F539C29F1CC23CC5004B3F88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F539C27B1CC23CC5004B3F88 /* Project object */;
+}
